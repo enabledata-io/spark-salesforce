@@ -14,11 +14,49 @@ You can link against this library in your program at the following ways:
 
 ### Maven Dependency
 ```
-<dependency>
-    <groupId>com.springml</groupId>
-    <artifactId>spark-salesforce_2.11</artifactId>
-    <version>1.1.3</version>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>com.springml</groupId>
+        <artifactId>spark-salesforce_2.12</artifactId>
+        <version>1.1.4</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.force.api</groupId>
+        <artifactId>force-partner-api</artifactId>
+        <version>40.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.force.api</groupId>
+        <artifactId>force-wsc</artifactId>
+        <version>40.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-xml</artifactId>
+        <version>2.4.4</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>2.0.31-beta</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.springml</groupId>
+        <artifactId>salesforce-wave-api</artifactId>
+        <version>1.0.10</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.codehaus.woodstox</groupId>
+        <artifactId>woodstox-core-asl</artifactId>
+        <version>4.4.0</version>
+    </dependency>
+</dependencies>
 ```
 
 ### SBT Dependency
