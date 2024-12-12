@@ -68,7 +68,7 @@ libraryDependencies += "com.springml" % "spark-salesforce_2.11" % "1.1.3"
 This package can be added to Spark using the `--packages` command line option.  For example, to include it when starting the spark shell:
 
 ```
-$ bin/spark-shell --packages com.springml:spark-salesforce_2.11:1.1.3
+$ bin/spark-shell --packages com.springml:spark-salesforce_2.12:1.1.4,org.mockito:mockito-core:2.0.31-beta,org.codehaus.woodstox:woodstox-core-asl:4.4.0,com.springml:salesforce-wave-api:1.0.10,com.force.api:force-partner-api:40.0.0,com.force.api:force-wsc:40.0.0,com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.4.4
 ```
 
 ## Features
